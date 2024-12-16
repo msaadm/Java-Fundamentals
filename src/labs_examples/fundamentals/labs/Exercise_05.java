@@ -17,11 +17,18 @@ public class Exercise_05 {
 
         String str2 = "hello";
         // please initialize a boolean variable and test whether str is equal to str2
+        boolean isEqual = str.equalsIgnoreCase(str2);
+        System.out.println("Are strings equal: " + isEqual);
 
         // please concatenate str & str2 and set the result to a new String variable below
-
+        String newString = str + str2;
         // please demonstrate the use of any other method that is available to us in the String class
         // for example, replace(), substring(), contains(), indexOf() etc
+        System.out.println(str.replace('o', 'p'));
+        System.out.println(str.substring(0, 4));
+        System.out.println(str.contains("!"));
+        System.out.println(str.indexOf('!'));
+
 
     }
 

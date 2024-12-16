@@ -19,7 +19,22 @@ Fundamentals Exercise 1: CLI
          c. Use $ grep to search for a word inside file
 
 Example Output:
-    1. cd ~/Documents/CodingNomads/
+    1. cd Java\ Career\ Track
     2. mkdir Terminal_testing
-    3. //...
+    3. cd Terminal_testing
+    4. touch a.txt b.txt c.txt
+    5. ls
+    6. pwd
+    7. mkdir folder
+    8. ls -la
+    9. mv a.txt folder
+    10. ls -la
+    11. mv c.txt folder
+    12. mv folder new_folder
+    13. ls -la
+    14. rm b.txt
+    15. rm -r new_folder
+    16. vim hello.txt
+    17. cat hello.txt
+    18. cat hello.txt| grep World
 
