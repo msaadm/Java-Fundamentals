@@ -12,7 +12,13 @@ public class Exercise_06 {
 
     public static void main(String[] args) {
 
-        // write code here
+        float pi = 3.14f;
+        float r = 3.14f;
+        float h = 5f;
+
+        float volume = (2 * pi * r * h) + (2 * pi * r * r);
+
+        System.out.println("Volume of a cylinder with radius: " + r + " and height: " + h + " is " + volume);
 
     }
 }

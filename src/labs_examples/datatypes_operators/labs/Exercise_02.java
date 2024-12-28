@@ -23,7 +23,12 @@ public class Exercise_02 {
 
     public static void main(String[] args) {
 
-        // write code here
+        int i1 = 10;
+        double d1 = i1;
+        System.out.println("int i1 = " + i1 + ", double d1 = " + d1);
 
+        double d2 = 10.5;
+        int i2 = (int) d2;
+        System.out.println("double d2 = " + d2 + ", int i2 = " + i2);
     }
 }
