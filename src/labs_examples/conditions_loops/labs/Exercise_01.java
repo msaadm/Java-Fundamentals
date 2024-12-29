@@ -23,7 +23,9 @@ public class Exercise_01 {
         // assign input to variable as int
         int number = scanner.nextInt();
 
-        // write completed code here
+        String result = number % 2 == 0 ? "Even" : "Odd";
+
+        System.out.println("Given input is " + result);
 
     }
 }
